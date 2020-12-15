@@ -1,0 +1,1 @@
+# pardus-install
