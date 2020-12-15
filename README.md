@@ -17,7 +17,7 @@ sudo add-apt-repository \
     buster \
     stable"
 apt-get update
-apt-get install docker-ce docker-ce-cli containerd.io
+apt-get install -y docker-ce docker-ce-cli containerd.io
 systemctl start docker
 systemctl enable docker
 docker ps
