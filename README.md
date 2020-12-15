@@ -27,5 +27,5 @@ debootstrap ondokuz ondokuz http://depo.pardus.org.tr/pardus
 rm -rf /var/cache/apt/*
 rm -rf /var/cache/ldconfig/*
 rm -rf ondokuz/var/lib/apt/lists/*
-
+tar -C ondokuz -c . | docker import - ondokuz
 ```
